@@ -1,0 +1,44 @@
+/* Header */ 
+.logo {background-color: #E5E5E5, 100%;
+text-align: center;}
+h1 { text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:#005677;
+    background-color: silver;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Main */
+.section { 
+    line-height: 24px;
+    margin: 0  auto;
+    width: 70%; 
+    }
+h2 {
+    color:#005677;
+    background-color: silver;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.Numero{
+    font-weight: bold;
+    font-style: italic;
+}
+dl.span {
+    font-weight: bold;
+    font-style: normal;
+}
+/* Footer */
+footer {
+    text-align: center;
+    background-color:#005677;
+    
+}
+.batman {
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+a {
+    margin: 10px;
+}
