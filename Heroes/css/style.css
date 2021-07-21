@@ -1,0 +1,81 @@
+/* ESTILOS UNIVERSALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,700&display=swap');
+
+/*BODY*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.Header2 {
+    background-color: #1CD1B0;
+    height: 38px;
+   
+}
+.Descuento {
+    
+    font-size: 15px;
+    font-style: normal;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+/*HEADER*/
+
+header {
+    background-color: #00669F;
+    color: black;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 100px;
+    
+}
+.Titulo {
+    
+    font-weight: 400;
+    position: relative;
+    top: 28px;
+    left: 28px;
+
+}
+
+/*MAIN*/
+.cartas {
+    display: inline-block;
+    position:relative;
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 150px;
+    margin: 30px;
+}
+
+.imgbatman {
+    background-image: url(../img/Background\ Batman.svg);
+    width: 300px;
+    height: 193px;
+    left: 692px;
+    top: 294px;
+
+}
+
+.textbatman {
+
+}
+.titubatman {
+    position: absolute;
+    
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    
+}
+
+.parrafobatman {
+
+}

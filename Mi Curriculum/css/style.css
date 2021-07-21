@@ -1,0 +1,125 @@
+/* Estilos Generales */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+body { background-color: rgba(197, 185, 214, 0.651);
+    background-image: url("../img/Background.jpg");
+    font-family: 'Open Sans', sans-serif;
+    
+} 
+    
+/* Header */ 
+.logo {background-color: #E5E5E5, 100%;
+    text-align: center;
+    border-radius: 50%;
+}
+img.foto {
+    border-radius: 50%;
+    width: 200px;
+    
+
+}
+    h1 { text-align: center;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color:#C84B31;
+        background-color: #346751;
+        
+    }
+    /* Main */
+    .link {
+        color:#C84B31;
+        background-color:#346751;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border: 2px solid;
+        border-color:#C84B31; 
+        font-size: 20px;
+        text-align: center;
+        width: 70%; 
+        margin: 0 auto;
+    }
+    .section { 
+        line-height: 24px;
+        margin: 0  auto;
+        width: 70%; 
+        }
+    h2 {
+        color:#C84B31;
+        background-color:#346751;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        border: 2px solid;
+        border-color:#C84B31; 
+        font-size: 20px;
+        text-align: center;
+    }
+    .Numero{
+        font-weight: bold;
+        font-style: italic;
+    }
+    dl.span {
+        font-weight: bold;
+        font-style: normal;
+    }
+    /* Footer */
+    footer {
+        text-align: center;
+        background-color:#346751;
+        
+    }
+    .batman {
+       color: white;
+       font-size: 20px;
+       font-weight: bold;
+    }
+    a {
+        margin: 10px;
+    }
+
+    /* Sobre Mi */
+    .descripcion {
+        line-height: 24px;
+        margin: 0  auto;
+        width: 70%; 
+        color: black;
+        background-color:#52ad86fa;
+        text-transform:initial;
+        padding: 5px;
+        border: 1px solid;
+        border-color:#C84B31; 
+        font-size: 18px;
+        text-align: justify;
+        width: 70%; 
+        margin: 0 auto;
+    }
+    .liquidpedia {
+        position: relative;
+        line-height: 100px;
+        left: 150px;
+        width: 70%; 
+        background-color:#52ad86fa;
+        text-transform:initial;
+        padding: 20px;
+        border: 1px solid;
+        border-color:#C84B31; 
+        font-size: 20px;
+        text-align: center;
+        width: 40%; 
+        margin: 0 auto;
+    }
+    .volver {
+        position: relative;
+        line-height: 100px;
+        left: 190px;
+        width: 70%; 
+        background-color:#52ad86fa;
+        text-transform:initial;
+        padding: 20px;
+        border: 1px solid;
+        border-color:#C84B31; 
+        font-size: 20px;
+        text-align: center;
+        width: 40%; 
+        margin: 0 auto;
+    }
