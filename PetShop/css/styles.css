@@ -79,6 +79,10 @@ header {
 .segundoHeader nav ul li a:active {
     color: brown;
 }
+.segundoHeader nav ul li a:hover::after {
+    content: '/f6d3';
+    text-decoration: underline;
+}
 /* Primera Parte Main*/
 
 .mainbanner {

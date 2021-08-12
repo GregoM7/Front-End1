@@ -22,7 +22,7 @@ body {
     font-style: normal;
     position: relative;
     top: 10px;
-    left: 10px;
+    margin-left: 22px;
 
 }
 /*HEADER*/
@@ -39,23 +39,30 @@ header {
     font-weight: 400;
     position: relative;
     top: 28px;
-    left: 28px;
+    margin-left: 25px;
 
 }
 
 /*MAIN*/
+main {
+    height: 750px;
+    width: 100%;
+}
 .contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: relative;
+
 }
 
 .carta1, .carta2, .carta3, .carta4 {
-    margin: 50px;
+    margin: 40px;
     width: 350px;
     height: 600px;
-    border:  1px solid;
+
     position: relative;
+    
 }
 
 /*Carta Batman*/
@@ -66,6 +73,7 @@ header {
     background-position: center;
     height: 40%;
     position: relative;
+    border-radius: 5px;
     
 }
 .imgbatman i {
@@ -88,6 +96,7 @@ position: absolute;
 height: 60%;
 background-color: #F3F3F3;
 z-index: 0;
+
 }
 .textbatman h3 {
     text-align: center;
@@ -123,6 +132,7 @@ z-index: 0;
     background-position: center;
     height: 40%;
     position: relative;
+    border-radius: 5px;
 }
 
 .imgharley img {
@@ -178,6 +188,7 @@ z-index: 0;
     background-position: center;
     height: 40%;
     position: relative;
+    border-radius: 5px;
 }
 .imgwonder img {
     position: absolute;
@@ -230,6 +241,7 @@ z-index: 0;
     background-position: center;
     height: 40%;
     position: relative;
+    border-radius: 5px;
 }
 .imgsuper img {
     position: absolute;
@@ -274,16 +286,27 @@ z-index: 0;
         border-radius: 7px;
         color: #F3F3F3; 
 }
+/*Boton*/
+.fa-angle-double-right {
+    font-size: 50px;
+    position: absolute;
+    bottom: 350px;
+    right: 15px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #00669F;
+    color: white;
+    line-height: 50px;
+}
 /* Footer */
 footer {
 background: #00669F;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 padding: 15px;
-/*position:fixed;
+position:fixed;
    left:0px;
    bottom:0px;
-   width:100%;
-*/}
+   width:100%;}
 
 footer p {
 color: #F3F3F3;

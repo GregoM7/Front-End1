@@ -1,0 +1,72 @@
+ /* Estilos Generales */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
+ img {
+     max-width: 100%;
+ }
+ ul {
+     list-style-type: none;
+ }
+ a {
+     text-decoration: none;
+ }
+ h2 {
+     text-align: center;
+ }
+
+ /*HEADER*/
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: black;
+     color: #fff;
+     padding: 10px;
+ }
+ .logo {
+     display: flex;
+     align-items: center;
+ }
+ .logo span {
+     color: red;
+ }
+ nav ul {
+     display: flex;
+}
+nav ul li a {
+    padding: 5px;
+    color: #fff;
+}
+/* MAIN */
+/* Banner */
+.banner {
+    background: blueviolet url(../img/background.png) no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+/* Productos */
+.product_container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+.product_container {
+    flex-direction: column;
+    
+}
+}
