@@ -44,37 +44,254 @@ header {
 }
 
 /*MAIN*/
-.main {
+.contenedor {
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.cartas {
-    border: 3px solid
+.carta1, .carta2, .carta3, .carta4 {
+    margin: 50px;
+    width: 350px;
+    height: 600px;
+    border:  1px solid;
+    position: relative;
 }
 
+/*Carta Batman*/
+/* Parte de arriba carta */
 .imgbatman {
     background-image: url(../img/Background\ Batman.svg);
-    width: 300px;
-    height: 193px;
-    left: 692px;
-    top: 294px;
-
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+    position: relative;
+    
 }
-
-.textbatman {
-
+.imgbatman i {
+    color: red;
+    margin: 15px;
+    font-size: 25px;
+    
+    
 }
-.titubatman {
+.imgbatman img {
     position: absolute;
-    
-    font-size: 30px;
-    line-height: 35px;
+    border-radius: 50%;
+    top: 160px;
+    left: 120px;
+    z-index: 2;
+}
+/* Parte abajo carta */
+.textbatman {
+position: absolute;
+height: 60%;
+background-color: #F3F3F3;
+z-index: 0;
+}
+.textbatman h3 {
     text-align: center;
-
+    margin-top: 55px;
+    font-size: 30px;
+    font-weight: 300;
     
 }
-
-.parrafobatman {
+.textbatman p {
+    text-align: justify;
+    margin: 10px;
+    line-height: 22px;
+    margin-top: 30px;
+    
+    
+}
+.textbatman button {
+    position: absolute;
+    left: 120px;
+    padding: 17px 30px 17px 30px ;
+    bottom: 15px;
+    background-color: #00669F;
+    border: none;
+    border-radius: 7px;
+    color: #F3F3F3; 
 
 }
+/*Carta Harley*/
+/* Parte de arriba carta */
+.imgharley {
+    background-image: url(../img/BackgroundHarley.svg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+    position: relative;
+}
+
+.imgharley img {
+    position: absolute;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    top: 155px;
+    left: 110px;
+    z-index: 1;
+}
+.imgharley i {
+    color: red;
+    margin: 15px;
+    font-size: 25px;
+}
+/* Parte abajo carta */
+.textharley {
+position: absolute;
+height: 60%;
+background-color: #F3F3F3;
+z-index: 0;
+}
+
+.textharley h3 {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.textharley p {
+    text-align: justify;
+    margin: 10px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+.textharley button {
+    position: absolute;
+    left: 120px;
+    padding: 17px 30px 17px 30px ;
+    bottom: 15px;
+    background-color: #00669F;
+    border: none;
+    border-radius: 7px;
+    color: #F3F3F3; 
+
+}
+/*Carta Wonder*/
+/* Parte de arriba carta */
+.imgwonder {
+    background-image: url(../img/BackgroundWonder.svg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+    position: relative;
+}
+.imgwonder img {
+    position: absolute;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    top: 155px;
+    left: 110px;
+    z-index: 1;
+}
+.imgwonder i {
+    color: red;
+    margin: 15px;
+    font-size: 25px;
+}
+/* Parte abajo carta */
+.textwonder {
+    position: absolute;
+    height: 60%;
+    background-color: #F3F3F3;
+    z-index: 0;
+    }
+.textwonder h3 {
+        text-align: center;
+        margin-top: 55px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+.textwonder p {
+        text-align: justify;
+        margin: 10px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+.textwonder button {
+        position: absolute;
+        left: 120px;
+        padding: 17px 30px 17px 30px ;
+        bottom: 15px;
+        background-color: #00669F;
+        border: none;
+        border-radius: 7px;
+        color: #F3F3F3; 
+}
+/*Carta Superman */
+/* Parte de arriba carta */
+.imgsuper {
+    background-image: url(../img/BackgroundSuperman.svg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+    position: relative;
+}
+.imgsuper img {
+    position: absolute;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    top: 155px;
+    left: 110px;
+    z-index: 1;
+}
+.imgsuper i {
+    color: red;
+    margin: 15px;
+    font-size: 25px;
+}
+/* Parte abajo carta */
+.textsuper {
+    position: absolute;
+    height: 60%;
+    background-color: #F3F3F3;
+    z-index: 0;
+    }
+.textsuper h3 {
+        text-align: center;
+        margin-top: 55px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+.textsuper p {
+        text-align: justify;
+        margin: 10px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+.textsuper button {
+        position: absolute;
+        left: 120px;
+        padding: 17px 30px 17px 30px ;
+        bottom: 15px;
+        background-color: #00669F;
+        border: none;
+        border-radius: 7px;
+        color: #F3F3F3; 
+}
+/* Footer */
+footer {
+background: #00669F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding: 15px;
+/*position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+*/}
+
+footer p {
+color: #F3F3F3;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+text-align: center;
+display: inline-block;
+}
+
+

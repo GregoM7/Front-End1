@@ -13,7 +13,7 @@ body {
 }
 /* header */
 header {
-    color: white
+    color: white;
 }
 
 /* Primer Header*/
@@ -31,7 +31,17 @@ header {
 .primerHeader select {
     margin-right: 25px ;
 }
-    
+
+.selects {
+    padding: 10px;
+}
+.selects>select {
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #F0A83E;
+    color: black;
+
+}
 /*Barra de navegacion*/
 
 .segundoHeader {
@@ -59,6 +69,16 @@ header {
     margin: 15px;
     list-style: none;
 }
+.segundoHeader nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.segundoHeader nav ul li a:hover {
+    color: black
+}
+.segundoHeader nav ul li a:active {
+    color: brown;
+}
 /* Primera Parte Main*/
 
 .mainbanner {
@@ -69,7 +89,7 @@ header {
     align-items: flex-end;
     background-image: url(../img/foto.png);
     background-size: cover;
-    height: 400px;
+    height: 600px;
     width: 100%;
  
 }
@@ -105,7 +125,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .productosdestacados img {
@@ -178,6 +197,7 @@ font-weight: 700;
     margin: 10px 30px 10px 30px;
     width: 300px;
     border-radius: 25px;
+    border: rgba(60, 35, 19, 1);
     
 }
 
@@ -187,11 +207,15 @@ font-weight: 700;
     width: 75px;
     height: 35px;
     text-align: center;
+    border: 1px ;
     border-radius: 10px;
     padding: 5px;
     margin-right: 10px;
     cursor: pointer;
 
+}
+.boton2_contacto:hover {
+    background-color: red;
 }
 .boton1_contacto {
     background-color:#F0A83E ;
@@ -200,10 +224,15 @@ font-weight: 700;
     height: 35px;
     text-align: center;
     border-radius: 10px;
+    border: 1px ;
     padding: 5px;
     margin-right: 10px;
     cursor: pointer;
     margin-bottom: 70px;
+
+}
+.boton1_contacto:hover {
+    background-color: green;
 
 }
 /*Footer*/
@@ -220,6 +249,8 @@ font-weight: 700;
 .suscribite i {
     color: white;
     letter-spacing: 1px;
+    margin-right: 25%;
+    
 }
 
 .input_correo {
@@ -227,18 +258,27 @@ font-weight: 700;
         padding: 13px;
         width: 250px;
         border-radius: 10px;
+        border: 1px;
+        
 }
-
+.input_correo::placeholder {
+    color: #3C2313;
+    text-align: justify;
+}
 .boton3_contacto {
     background-color:#3C2313 ;
     color: white;
     text-align: center;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
+    border: 1px;
+    margin-left: 15px;
+}
+.boton3_contacto:hover {
+    background-color: indianred;
     
 }
-
 .footermedio {
     background-color:#3C2313;
     display: flex;
@@ -246,22 +286,24 @@ font-weight: 700;
 }
 
 .contact {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 30px
 
 }
 
-.logochico {
-    display: flex;
-    align-self: flex-end;
+.logochico  {
+    position: relative;
     font-size: 23px;
     font-weight: 700;
     margin-right: 70px;
 }
 
-.catdog {
-    margin-bottom: 30px;
+.logochico>h3 {
+   position: absolute;
+   right: 40px;
+   bottom: 130px;
 }
 
 .parte {
@@ -273,7 +315,6 @@ font-weight: 700;
     color: white;
     text-align: center;
 }
-
 .footerbajo {
     color: white;
     text-align: center;
