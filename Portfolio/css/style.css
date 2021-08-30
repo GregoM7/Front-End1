@@ -27,16 +27,14 @@ body {
       
   }
   header h2:hover {
-    color: #fff;
-    -webkit-animation: none;
-    -moz-animation: none;
-    animation: none;
+    color: #000;
   }
   header img {
       height: 250px;
       width: 250px;
       border-radius: 50%;
       box-shadow: 1px 1px 10px 5px #703088;
+      margin-top: 20px;
   }
   
   #container {
