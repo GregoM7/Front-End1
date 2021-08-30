@@ -80,7 +80,6 @@ header {
     color: brown;
 }
 .segundoHeader nav ul li a:hover::after {
-    content: '/f6d3';
     text-decoration: underline;
 }
 /* Primera Parte Main*/
@@ -248,12 +247,12 @@ font-weight: 700;
     align-items: center;
     height: 60px;
     border: none;
+    padding: 20px;
 }
 
 .suscribite i {
     color: white;
     letter-spacing: 1px;
-    margin-right: 25%;
     
 }
 
@@ -324,4 +323,24 @@ font-weight: 700;
     text-align: center;
     padding: 5px;
     background-color: rgba(34, 34, 34, 1);
+}
+/* Media Queries */
+@media screen and (max-width: 900px) {
+    .suscribite {
+        height: 100px;
+    }
+    .boton3_contacto {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .productosdestacados h2 {
+        text-align: center;
+    }
+    .suscribite {
+        height: 100px
+    }
 }

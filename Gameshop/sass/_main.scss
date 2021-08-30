@@ -1,0 +1,121 @@
+/* Banner */
+
+.banner {
+    background: blueviolet url(../img/background.png) no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 40px;
+        line-height: 47px;
+        color: $tercer-color;
+        font-weight: 500;
+          }
+          
+        span {
+            color: $secondary-color;
+        }
+    
+    a {
+        input {
+            margin-top: 30px;
+            background-color: $secondary-color;
+            padding: 25px 70px;
+            border: 1px groove #fff;
+            color: white ;
+            font-size: 20px;
+            box-shadow: 1px 1px 10px 5px black;
+            transition: 240ms;
+            &:hover {
+                background-color: black ;
+                color: $secondary-color;
+            }
+        }
+    }
+
+}
+/* Productos Destacados */
+ .product__container {
+    display: flex;
+    justify-content: space-around;
+    } 
+    .cards {
+        width: 250px;
+        background-color: $tercer-color;
+        .card__img {
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+            padding: 5px;
+            img {
+                height: 180px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            
+        }
+        .card__info {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            border-top: solid 1px slategrey;
+            text-align: left;
+            span {
+                font-weight: 400;
+                font-size: 20px;
+                padding: 15px 0 5px 15px;
+            }
+            p {
+                font-size: 13px;
+                line-height: 15px;
+                padding-left: 15px;
+            }
+            small {
+                color: #619D00;
+                font-size: 12px;
+                line-height: 12px;
+                padding: 5px 0 15px 15px;
+            }
+
+
+        }
+    }
+
+/* Productos Estrella */
+.container__estrella {
+    display: flex;
+    justify-content: space-around;
+    .producto__silla {
+        background-image: url(../img/BannerSilla.svg);
+        width: 361px;
+        height: 135px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        p {
+            color: $tercer-color;
+            font-size: 25px;
+            line-height: 29px;
+            margin-right: 30px;
+        }
+    }
+    .producto__compu {
+        background-image: url(../img/BannerCompu.svg);
+        width: 361px;
+        height: 135px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        p {
+            color: $tercer-color;
+            font-size: 25px;
+            line-height: 29px;
+            margin-right: 30px;
+        }
+    }
+    
+
+}

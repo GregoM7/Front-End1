@@ -1,0 +1,17 @@
+header {
+    .logo {
+        background-color: $colorDeFondo;
+        text-align: center;
+        transition: transform 1s;
+        &:hover {
+            transform: scale(1.5)
+        }
+    }
+    h1 { text-align: center;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: $colorDeLetra;
+        background-color: $colorDeFondo;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
